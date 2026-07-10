@@ -12,7 +12,7 @@ GPLv2), cloned and patched at build time, plus **your own** copy of Ultima III.
 
 ## 🚀 Install
 
-Requires a **Mac** with **Xcode** and **git**.
+Requires a **Mac** with **Xcode** and **git** (no Mac? see [💻 No Mac?](#-no-mac-sideload-the-prebuilt-app) below).
 
 ```sh
 git clone https://github.com/dmaynard51/ultima3-ios.git
@@ -37,6 +37,20 @@ yours is elsewhere, pass the folder (the one with `ULTIMA.COM`) as the last argu
 > add a device" wall. If command-line signing still fails (Apple blocks free-account
 > CLI signing), the script prints the exact free **Xcode ▸ Run ▶** steps. Note a free
 > Apple ID can keep **3 sideloaded apps installed at once** and re-signs every 7 days.
+
+## 💻 No Mac? (sideload the prebuilt app)
+
+No Mac or Xcode? Download the prebuilt **[Ultima III IPA](https://github.com/dmaynard51/ultima3-ios/releases/latest)** and sideload it from a
+**Windows or Linux PC** — no Mac needed:
+
+- **[Sideloadly](https://sideloadly.io)** or **[AltStore](https://altstore.io)** install the
+  `.ipa` with a **free Apple ID** (AltStore auto-refreshes the 7-day signature over Wi-Fi).
+- **No computer at all:** **TrollStore** installs it permanently *if* your iOS supports it;
+  in the EU, **AltStore PAL**.
+
+The IPA has **no game data**. After installing, open the **Files** app → **On My iPhone →
+Ultima III** and copy your own Ultima III DOS game files into that folder's root, then reopen the
+app — it boots straight into the game.
 
 ## 🎮 Playing
 
